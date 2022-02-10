@@ -14,7 +14,7 @@ end
 module MobileId
   class Error < StandardError; end
 
-  LOCALES = [:en, :et, :ru]
+  LOCALES = [:lt]
 end
 
 require 'mobile_id/cert'
